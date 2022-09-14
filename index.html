@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<title>P03 HTML TABLE JQUERY</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./index.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<body>
+
+<div class="utama">
+  <h1>5 kawan terbaiku</h1>
+
+  <table>
+    <style type="text/css">
+    h1{
+      color: black;
+      cursor: pointer;
+      transition: 0.8s
+    }
+    h1:hover{
+      color: blue;
+      background: white ;
+      cursor: pointer;
+      transition: 0.6s;
+      opacity: 80%;
+    }
+    th{
+      background-color: blue;
+      color:white ;
+    } 
+    th:hover{
+      color: black;
+      background:white ;
+      cursor: pointer;
+      transition: 0.6s;
+      opacity: 80%;
+    }
+    td{
+      background-color: white;
+      color: blue ;
+    }
+    td:hover{
+      color: blue;
+      background: green ;
+      cursor: pointer;
+      transition: 0.6s;
+      opacity: 80%;
+
+    }
+    
+  </style>
+</head>
+<body>
+
+  <table border="1">
+    <thead class="table_judul">
+      <th>NO</th>
+      <th>NAMA LENGKAP</th>
+      <th>ALAMAT</th>
+      <th>AKSI</th>
+    </thead>
+
+    <tr>
+      <td>1</td>
+      <td>Yasni Optarina</td>
+      <td>Ciamis</td>
+      <td>Edit | Hapus</td>
+    </tr>
+
+    <tr>
+      <td>2</td>
+      <td>Siti Hatmara Sukma</td>
+      <td>Ciamis</td>
+      <td>Edit | Hapus</td>
+    </tr>
+
+    <tr>
+      <td>3</td>
+      <td>Astrid</td>
+      <td>Brebes</td>
+      <td>Edit | Hapus</td>
+    </tr>
+
+    <tr>
+      <td>4</td>
+      <td>Dwi Febrianti</td>
+      <td>Tegal</td>
+      <td>Edit | Hapus</td>
+    </tr>
+
+    <tr>
+      <td>5</td>
+      <td>Puput Rifani</td>
+      <td>Brebes</td>
+      <td>Edit | Hapus</td>
+    </tr>
+
+
+    
+  </table>
+</center>
+  </body>
+</html>
+<button onclick="alert('hello world javascript!')">Kembali</button>
